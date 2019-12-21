@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 5: invalid syntax
+                          who_color"#f09b5b")
+                                            ^
+
+Ren'Py Version: Ren'Py 7.3.2.320
+Tue Aug 13 14:07:17 2019
