@@ -18,6 +18,12 @@ transform charleft:
 transform charmid:
        xalign 0.5
        yalign 0.65
+transform charlefta:
+       xalign 0.4
+       yalign 0.65
+transform charleftb:
+       xalign 0.15
+       yalign 0.65
 define sceneswitch = Dissolve(.5)
 define wipeinward = ImageDissolve("gradient reverse.png", 1.0, ramplen=128)
 define wipedissolve = ImageDissolve("gradient.png", 1.0, ramplen=128)
@@ -39,8 +45,8 @@ label start:
     "Nico quickly hustled into his house as he was doused by the entourage of rain coming from the outside. He sighed as he look downed at his completely soaked school outfit and started to get some of the clothes off."
     n "The news said nothing about the rain, just my luck..."
     show tohi wet at charright with moveinright
-    "A male much taller than Nico sprinted in after, making sure to take his shoes off and put his bag down in front of the doorway" 
-    t "Thanks again- for having me over" 
+    "A male much taller than Nico sprinted in after, making sure to take his shoes off and put his bag down in front of the doorway"
+    t "Thanks again- for having me over"
     "Tohiro Shigata, the man behind Nico, had a big grin on his face and took off his drenched school coat, now being able to see through the white button up shirt he had been wearing under"
     "A male much taller than Nico sprinted in after, making sure to take his shoes off and put his bag down in front of the doorway"
     t "Thanks again- for having me over"
@@ -58,10 +64,26 @@ label start:
     scene bg foyer
     show nico nosebleed at charleft
     show tohi wet at charright
+
     t "Ah! Are you ok? Here!"
+    show tohi tissue at charlefta with moveinright
+    show nico nosebleed at charleftb with moveinright
     "Tohiro quickly grabs a box of tissues and wipes away the blood."
     t "Where are the baths!"
+    n "W-Wh-What!"
+    t "Where are the baths!"
     n "D-D-Down the hall, second d-door on the right!"
+    t "Alright!"
+    "Tohrio takes the boy in his arm and carries him to the bathroom."
+    scene bg bathroom
+    with wipeslide
+    show tohi hold at charleft with moveinright
+    n "Ugghhh..."
+    show nico nosebleed at charleft
+    show tohi wet at charmid with moveinleft
+    t "There!"
+    n "Ugghhhhhh..."
+    t "Jeez... You're gonna stain your shit at this rate."
 
 
     # prototype end
