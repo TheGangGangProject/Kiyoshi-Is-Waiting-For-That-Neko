@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 43, in script
+    t "Thanks again- for having me over"
+Exception: Sayer 't' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 43, in script
+    t "Thanks again- for having me over"
+  File "C:\Users\Russianblue765\Desktop\renpy-7.3.2-sdk\renpy\ast.py", line 676, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\Russianblue765\Desktop\renpy-7.3.2-sdk\renpy\ast.py", line 574, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
+Exception: Sayer 't' is not defined.
+
+Windows-8-6.2.9200
+Ren'Py 7.3.2.320
+Kiyoshi Is Waiting For That Neko 1.0
+Sun Dec 22 20:07:17 2019
