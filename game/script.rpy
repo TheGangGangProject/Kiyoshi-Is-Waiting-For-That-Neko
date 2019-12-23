@@ -83,7 +83,36 @@ label start:
     show tohi wet at charmid with moveinleft
     t "There!"
     n "Ugghhhhhh..."
-    t "Jeez... You're gonna stain your shit at this rate."
+    t "Jeez... You're gonna stain your shirt at this rate."
+    "Tohiro buttons off both of their shirts"
+    show nico topless
+    show tohi topless
+    n "H-Hey!"
+    scene cg bathroom1
+    t "There we go!"
+    t "Hey are you sure you are alright?\nYou are loosing alot of blood."
+    n "I-I-I'm good, must h-have been the dryness o-of the air."
+    t "Would you like me to wash your back?"
+    n "MmmHmm"
+    scene cg bathroom2
+    n "nnngggnnnhh"
+    t "Hey, do you mind turning on the water nozzle."
+    n "U-U-Uhh Sure!"
+    #more naration
+    #Nico Fall Asleep
+    scene cg bathroom3
+    t "Uwahhh! The water is so nice!"
+    #More Nico Narration
+    t "Hey Nico~."
+    n "..."
+    t "Nico?"
+    n "......"
+    t "Nico?"
+    n "........."
+    #Narration
+    
+
+
 
 
     # prototype end
