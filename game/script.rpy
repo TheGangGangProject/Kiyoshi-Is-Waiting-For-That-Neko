@@ -110,7 +110,18 @@ label start:
     t "Nico?"
     n "........."
     #Narration
-    
+    t "Dang... Must have been pretty worn out."
+    scene bg bathroom
+    with wipedissolve
+    show tohi sad at charmid
+    t "Welp! I can't just leave him here."
+    "Tohiro picks up the frail boy and looks down at him."
+    show tohi hold
+    t "H-He's! Woah! He's a stiff as a board!"
+    t "W-Well, he is sleeping after all..."
+    t "God... This is so embarassing."
+
+
 
 
 
